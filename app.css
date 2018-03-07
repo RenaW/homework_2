@@ -1,0 +1,37 @@
+.first-row{
+    width: 300px;
+    height: 40px;
+    margin: 15px;
+    background-color: #e3dfff;
+    border-color: #003366;
+    border-style: solid;
+    border-radius: 3px;
+    border-left: 45px solid #003366;
+    }
+
+.second-row{
+    width: 685px;
+    background-color: #e3dfff;
+    border-color: #003366;
+    border-style: solid;
+    border-radius: 3px;
+    border-left: 45px solid #003366;
+    }
+.submit-button {
+    color: white;
+    background-color: green;
+    width: 730px;
+    height: 40px;
+    border: none;
+    text-transform: uppercase;
+}
+.align{
+    text-align: center;
+    }
+.form-header{
+    color:green;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
