@@ -28,6 +28,13 @@
     flex-direction: column;
     padding: 10px;
 }
+.logo{
+    display: inline-block;
+    width: 260px;
+    height: 116px;
+    background: url(../images/logo.png);
+    z-index: 3;
+}
 .first-line{
     display: flex;
     justify-content: space-between;
@@ -38,11 +45,18 @@
     text-decoration:none;
     display:inline-flex;
     z-index:3;
-    color:white;
+    color:#fff;
     font-family: Lato Bold, Arial, sans-serif;
     font-size: 1EM;
+    position:relative;
     margin:20px;
 
+}
+.nav-item:after{
+    content: "/";
+    position: absolute;
+    left: 70px;
+    color:#fff;
 }
 .second-line{
     display: flex;
@@ -98,11 +112,27 @@
     padding-left: 30px;
 }
 .social-media {
-    display: inline-flex;
+    display: inline-block;
     height: 60px;
     width: 60px;
     margin: 30px;
 }
+.twitter{
+    background: url(../images/twitter.png);
+}
+.dribble{
+    background: url(../images/dribble.png);
+}
+.behance{
+    background: url(../images/behance.png);
+}
+.linkedin{
+    background: url(../images/linkedin.png);
+}
+
+
+
+
 /*form*/
 
 .form-name{
