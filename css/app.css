@@ -16,7 +16,7 @@
 
     width: inherit;
     height: 650px;
-    background: url(images/headercomputer.png);
+    background: url(../images/headercomputer.png);
 }
 .imposition {
     background: rgba(60, 73, 85, .8);
