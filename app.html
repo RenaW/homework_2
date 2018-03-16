@@ -1,21 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>App</title>
+        <link rel="stylesheet" href="app.css">
+    </head>
+    <body class="body-style">
+        <div class="app-wrapper">
+            <header class="header-style">
+                <div class="imposition">
+                    <div class="header-wrapper">
+                        <div class="first-line">
+                            <div>
+                                <a href="#Accueil"><img src="images/logo.png"  alt="logo"></a>
+                            </div>
+                            <nav>
+                                <a href="#" class="nav-item">Accueil</a>
+                                <p class="nav-item">/</p>
+                                <a href="#" class="nav-item">Portfolio</a>
+                                <p class="nav-item">/</p>
+                                <a href="#" class="nav-item">About</a>
+                                <p class="nav-item">/</p>
+                                <a href="#" class="nav-item">Contacts</a>
+                            </nav>
+                        </div>
+                        <div class="second-line">
+                            <h1 class="h1">voici votre prochain portfolio</h1>
+                            <h4 class="h4">un template psd simple et gratuit</h4>
+                            <form>
+                                <button class="header-button" type="button">mes travaux</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </header>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Form</title>
-    <link rel="stylesheet" href="app.css">
-</head>
-<body>
-    <div class="form-header">Me contacter</div>
-        <form action='/example.com' method="post">
-            <div class="align">
-                <p><input type="text" placeholder="Votre nom" class="first-row">
-                <input type="text" placeholder="Votre e-mail" class="first-row"></p>
-            <p><textarea rows="13" placeholder="Votre message" class="second-row"></textarea></p>
-            <p><input type="submit" value="envoyer" class="submit-button"></p>
+            <div class="container-form">
+                <div class="form-header">Me contacter</div>
+                <form action='/example.com' method="post">
+                    <div class="align">
+                        <p><input type="text" placeholder="Votre nom" class="form-name form-style">
+                            <input type="text" placeholder="Votre e-mail" class="form-email form-style">
+                        </p>
+                        <p>
+                             <textarea rows="13" placeholder="Votre message" class="form-message form-style"></textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="envoyer" class="submit-button">
+                        </p>
+                    </div>
+                </form>
             </div>
-        </form>
-    <div class="align"><a href="table.html">Cтраны участники Первой Мировой войны</a></div>
-</body>
+            <footer class="footer-style">
+                <div class="copyright">
+                    <p>Copyright © 2015 by beneggen - www.beneggen.fr</p>
+                </div>
+                <div>
+                    <ul>
+                        <li class="social-media twitter"><a title="Twitter" target="_blank" href="https://twitter.com"><img src="images/twitter.png"></a></li>
+                        <li class="social-media linkedin"><a title="LinkedIn" target="_blank" href="https://linkedin.com"><img src="images/linkedin.png"></a></li>
+                        <li class="social-media dribble"><a title="Dribble" target="_blank" href="https://dribble.com"></a><img src="images/dribble.png"></li>
+                        <li class="social-media behance"><a title="Behance" target="_blank" href="https://behance.net"><img src="images/behance.png"></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>
